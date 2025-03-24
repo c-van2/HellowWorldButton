@@ -5,13 +5,13 @@
 
 <button @onclick="GetData">Click Me</button>
 
-<p>@message</p>
+<p>@message</p> 
 
 @code {
     private string message = "";
 
     private async Task GetData()
     {
-        message = await Http.GetStringAsync("/api/hello");
+        message = await Http.GetStringAsync("https://localhost:5015/api/hello");
     }
 }
