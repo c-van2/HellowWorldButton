@@ -77,3 +77,4 @@
 /Users/Lam/Desktop/AMG/HellowWorldButton/HellowWorldButton/obj/Debug/net9.0/HellowWorldButton.pdb
 /Users/Lam/Desktop/AMG/HellowWorldButton/HellowWorldButton/obj/Debug/net9.0/HellowWorldButton.genruntimeconfig.cache
 /Users/Lam/Desktop/AMG/HellowWorldButton/HellowWorldButton/obj/Debug/net9.0/ref/HellowWorldButton.dll
+/Users/Lam/Desktop/AMG/HellowWorldButton/HellowWorldButton/obj/Debug/net9.0/HellowWorldButton.sourcelink.json
