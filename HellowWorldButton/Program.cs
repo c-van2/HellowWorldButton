@@ -7,7 +7,10 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 // Register HttpClient
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["BaseUrl"] ?? "https://localhost:5015") });
+builder.Services.AddScoped(sp => new HttpClient 
+{ 
+    BaseAddress = new Uri("https://localhost:5015")
+});
 
 var app = builder.Build();
 
